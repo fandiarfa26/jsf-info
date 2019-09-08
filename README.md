@@ -8,13 +8,13 @@ This is an application to explain javascript frameworks.
 
 ## Screenshot
 
-<img src="https://raw.githubusercontent.com/fandiarfa26/jsf-info/blob/master/screenshot/ss1.jpeg"
+<img src="https://raw.githubusercontent.com/fandiarfa26/jsf-info/master/screenshot/ss1.jpeg"
      alt="Home Screen"
      style="float: left; margin-right: 10px;"
-     width="200" /> <img src="https://raw.githubusercontent.com/fandiarfa26/jsf-info/blob/master/screenshot/ss2.jpeg"
+     width="200" /> <img src="https://raw.githubusercontent.com/fandiarfa26/jsf-info/master/screenshot/ss2.jpeg"
      alt="Detail Screen"
      style="float: left; margin-right: 10px;"
-     width="200" /> <img src="https://raw.githubusercontent.com/fandiarfa26/jsf-info/blob/master/screenshot/ss3.jpeg"
+     width="200" /> <img src="https://raw.githubusercontent.com/fandiarfa26/jsf-info/master/screenshot/ss3.jpeg"
      alt="About Screen"
      style="float: left; margin-right: 10px;"
      width="200" />
