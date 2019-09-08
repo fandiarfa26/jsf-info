@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/activity_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_yellow_blue">
+
+    <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"
+            card_view:cardCornerRadius="32dp"
+            card_view:cardElevation="3dp"
+            card_view:cardBackgroundColor="@android:color/white">
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <RelativeLayout
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                            android:id="@+id/dtl_img_logo"
+                            android:layout_width="136dp"
+                            android:layout_height="136dp"/>
+
+                    <LinearLayout
+                            android:layout_toEndOf="@+id/dtl_img_logo"
+                            android:layout_marginStart="16dp"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                        <TextView
+                                android:id="@+id/dtl_tv_name"
+                                android:text="@string/str_dtl_name"
+                                android:textColor="@android:color/black"
+                                android:textSize="22sp"
+                                android:textStyle="bold"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+                        <TextView
+                                android:id="@+id/dtl_tv_version"
+                                android:text="@string/str_dtl_version"
+                                android:textColor="@android:color/black"
+                                android:textSize="14sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+                        <TextView
+                                android:text="@string/label_developer"
+                                android:textColor="@android:color/black"
+                                android:textStyle="bold"
+                                android:layout_marginTop="8dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+                        <TextView
+                                android:id="@+id/dtl_tv_developer"
+                                android:text="@string/str_dtl_developer"
+                                android:textColor="@android:color/black"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+                        <TextView
+                                android:text="@string/label_release"
+                                android:textColor="@android:color/black"
+                                android:textStyle="bold"
+                                android:layout_marginTop="8dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+                        <TextView
+                                android:id="@+id/dtl_tv_release"
+                                android:text="@string/str_dtl_release"
+                                android:textColor="@android:color/black"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <TextView
+                        android:text="@string/label_description"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+                        android:layout_marginTop="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                <TextView
+                        android:id="@+id/dtl_tv_description"
+                        android:text="@string/str_dtl_description"
+                        android:textColor="@android:color/black"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                <Button
+                        android:id="@+id/dtl_btn_url"
+                        android:text="@string/btn_url"
+                        android:layout_marginTop="28dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"/>
+
+
+            </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
